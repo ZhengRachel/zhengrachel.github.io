@@ -17,9 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! My name is ZHENG Rui-Chen (郑瑞晨).
+Hi there! My name is Rui-Chen Zheng (郑瑞晨).<br/>
 I am currently a second-year master student at <a href='http://nelslip.ustc.edu.cn/main.htm'>National Engineering Research Center for Speech and Language Information Processing </a> of <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='http://staff.ustc.edu.cn/~zhling/#!index.md'>Zhen-Hua Ling</a>.
-My main research interests lie within deep learning for speech synthesis, and I am particularly interested in articulatory-acoustic relationship in speech synthesis. My CV can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>.
+My main research interests lie within deep learning for speech synthesis, and I am particularly interested in articulatory-acoustic relationship in speech synthesis. <br/>
+My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>.
 
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
@@ -30,11 +31,16 @@ My main research interests lie within deep learning for speech synthesis, and I 
 - *2023.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2021.09 - 2024.06 (Expected)*, Master Student, University of Science and Technology of China 
-- *2017.09 - 2021.06*, Bachelor's Degree, University of Science and Technology of China  
+- *2021.09 - 2024.06 (Expected)*, **Master Student** in Information and Comunication Engineering, *University of Science and Technology of China*
+  - Supervised by Prof. Zhen-Hua Ling
+  - GPA: 3.9/4.3
+- *2017.09 - 2021.06*, **Bachelor's Degree** of Electronic Information Engineering, *University of Science and Technology of China*  
+  - Thesis: Method and Practice on Text-to-speech Without Text
+  - GPA: 3.89/4.3
+  - Minor in Business Administration
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/ImprovedTaLNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Speech Reconstruction from Silent Tongue and Lip Articulation By Pseudo Target Generation and Domain Adversarial Training](https://arxiv.org/abs/2304.05574)
 
@@ -47,7 +53,7 @@ My main research interests lie within deep learning for speech synthesis, and I 
 
 # 📝 Projects 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/IUTIforAVSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement through Knowledge Distillation
