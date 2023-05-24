@@ -51,16 +51,14 @@ My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>
 </div>
 </div>
 
-# 📝 Projects 
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/IUTIforAVSE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">InterSpeech 2023</div><img src='images/IUTIforAVSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement through Knowledge Distillation
 
 **Rui-Chen Zheng**, Yang Ai, Zhen-Hua Ling
 
-[**Demo Page**](https://zhengrachel.github.io/ULTforAVSE-demo/)
+[**Demo Page**](https://zhengrachel.github.io/UTIforAVSE-demo/)
 - Audio-visual speech enhancement (AV-SE) aims to enhance degraded speech along with extra visual information such as lip videos, and has been shown to be more effective than audio-only speech enhancement. This paper proposes further incorporating ultrasound tongue images to improve lip-based AV-SE systems’ performance. Knowledge distillation is employed at the training stage to address the challenge of acquiring ultrasound tongue images during inference, enabling an audio-lip speech enhancement student model to learn from a pre-trained audiolip-tongue speech enhancement teacher model. Experimental results demonstrate significant improvements in the quality and intelligibility of the speech enhanced by the proposed method compared to the traditional audio-lip speech enhancement baselines. Further analysis using phone error rates (PER) of automatic speech recognition (ASR) shows that palatal and velar consonants benefit most from the introduction of ultrasound tongue images.
 </div>
 </div>
