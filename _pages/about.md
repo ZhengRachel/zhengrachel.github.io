@@ -19,7 +19,7 @@ redirect_from:
 
 Hi there! My name is Rui-Chen Zheng (郑瑞晨).<br/>
 I am currently a second-year master student at <a href='http://nelslip.ustc.edu.cn/main.htm'>National Engineering Research Center for Speech and Language Information Processing </a> of <a href='http://en.ustc.edu.cn/'>University of Science and Technology of China</a>, supervised by Prof. <a href='http://staff.ustc.edu.cn/~zhling/#!index.md'>Zhen-Hua Ling</a>.
-My main research interests lie within deep learning for speech synthesis, and I am particularly interested in articulatory-acoustic relationship in speech synthesis. <br/>
+My main research interests lie within deep learning for speech synthesis, and now I am researching on articulatory-acoustic relationship in speech synthesis. <br/>
 My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>.
 
 
