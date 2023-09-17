@@ -25,6 +25,7 @@ My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/ImprovedTaLNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 [Speech Reconstruction from Silent Tongue and Lip Articulation By Pseudo Target Generation and Domain Adversarial Training](https://arxiv.org/abs/2304.05574)
 
 **Rui-Chen Zheng**, Yang Ai, Zhen-Hua Ling
