@@ -50,7 +50,7 @@ My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to IEEE/ACM TASLP</div><img src='images/IUTIforAVSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement
+[Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement](https://arxiv.org/abs/2309.10455)
 
 **Rui-Chen Zheng**, Yang Ai, Zhen-Hua Ling
 
