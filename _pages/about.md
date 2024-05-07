@@ -42,7 +42,7 @@ My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/ImprovedTaLNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Speech Reconstruction from Silent Tongue and Lip Articulation By Pseudo Target Generation and Domain Adversarial Training](https://arxiv.org/abs/2304.05574)
+[Speech Reconstruction from Silent Tongue and Lip Articulation By Pseudo Target Generation and Domain Adversarial Training](https://ieeexplore.ieee.org/document/10096920)
 
 **Rui-Chen Zheng**, Yang Ai, Zhen-Hua Ling
 
@@ -63,16 +63,16 @@ My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to IEEE/ACM TASLP</div><img src='images/IUTIforAVSE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE/ACM TASLP 2024</div><img src='images/IUTIforAVSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
-[Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement](https://arxiv.org/abs/2309.10455)
+[Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement](https://ieeexplore.ieee.org/document/10418525)
 
 **Rui-Chen Zheng**, Yang Ai, Zhen-Hua Ling
 
 [**Demo Page**](https://zhengrachel.github.io/IUTIforAVSE-demo/)
-- Audio-visual speech enhancement (AV-SE) aims to enhance degraded speech along with extra visual information such as lip videos, and has been shown to be more effective than audio-only speech enhancement. This paper proposes the incorporating of ultrasound tongue images to improve the performance of lip-based AV-SE systems further. To address the challenge of acquiring ultrasound tongue images during inference, we first propose to employ knowledge distillation during training to investigate the feasibility of leveraging tongue-related information without directly inputting ultrasound tongue images. Specifically, we guide an audio-lip speech enhancement student model to learn from a pre-trained audio-lip-tongue speech enhancement teacher model, thus transferring tongue-related knowledge. To better model the alignment between the lip and tongue modalities, we further propose the introduction of a lip-tongue key-value memory network into the AV-SE model. This network enables the retrieval of tongue features based on readily available lip features, thereby assisting and improving the subsequent speech enhancement task. Experimental results demonstrate that both methods significantly improve the quality and intelligibility of the enhanced speech compared to traditional lip-based AV-SE baselines. Moreover, both proposed methods exhibit strong generalization performance on unseen speakers and in the presence of unseen noises. Furthermore, phone error rate (PER) analysis of automatic speech recognition (ASR) reveals that while all phonemes benefit from introducing ultrasound tongue images, palatal and velar consonants benefit most.
+- Audio-visual speech enhancement (AV-SE) aims to enhance degraded speech along with extra visual information such as lip videos, and has been shown to be more effective than audio-only speech enhancement. This paper proposes the incorporation of ultrasound tongue images to improve the performance of lip-based AV-SE systems further. To address the challenge of acquiring ultrasound tongue images during inference, we first propose to employ knowledge distillation during training to investigate the feasibility of leveraging tongue-related information without directly inputting ultrasound tongue images. Specifically, we guide an audio-lip speech enhancement student model to learn from a pre-trained audio-lip-tongue speech enhancement teacher model, thus transferring tongue-related knowledge. To better model the alignment between the lip and tongue modalities, we further propose the introduction of a lip-tongue key-value memory network into the AV-SE model. This network enables the retrieval of tongue features based on readily available lip features, thereby assisting the subsequent speech enhancement task. Experimental results demonstrate that both methods significantly improve the quality and intelligibility of the enhanced speech compared to traditional lip-based AV-SE baselines. Moreover, both proposed methods exhibit strong generalization performance on unseen speakers and in the presence of unseen noises. Furthermore, phone error rate (PER) analysis of automatic speech recognition (ASR) reveals that while all phonemes benefit from introducing ultrasound tongue images, palatal and velar consonants benefit most.
 </div>
 </div>
 
