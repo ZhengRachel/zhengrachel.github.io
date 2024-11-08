@@ -119,7 +119,7 @@ My **CV** can be downloaded <a href="assets/Rui-Chen-Zheng-CV-2023.pdf">here</a>
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by SLT 2024</span> [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://arxiv.org/abs/2410.04990), Fei Liu, Yang Ai, Hui-Peng Du, Ye-Xin Lu, **Rui-Chen Zheng**, Zhen-Hua Ling
 
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by SLT 2024</span> MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios, Xiao-Hang Jiang, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Zhen-Hua Ling.
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by SLT 2024</span> [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://arxiv.org/abs/2411.00464), Xiao-Hang Jiang, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INTERSPEECH 2024</span> [A Low-Bitrate Neural Audio Codec Framework with Bandwidth Reduction and Recovery for High-Sampling-Rate Waveforms](https://www.isca-archive.org/interspeech_2024/ai24b_interspeech.pdf), Yang Ai, Ye-Xin Lu, Xiao-Hang Jiang, Zheng-Yan Sheng, **Rui-Chen Zheng**, Zhen-Hua Ling.
 
