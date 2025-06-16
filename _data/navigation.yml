@@ -6,14 +6,20 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  # - title: "News"
-  #   url: "/#-news"
+  - title: "Experiences"
+    url: "/#-experiences"
 
   - title: "Publications"
     url: "/#-publications"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
+
+  - title: "Services"
+    url: "/#-services"
+
+  # - title: "Services"
+  #   url: "/#-services
 
   - title: "Teaching Assistant Experience"
     url: "/#-teaching-assistant-experience"  
