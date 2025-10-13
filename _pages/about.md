@@ -27,10 +27,10 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
-<!-- 
+
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2023.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2025.10*: &nbsp;🎉🎉 I am thrilled to announce that I have received the 2025 National Graduate Scholarship! This achievement would not have been possible without the guidance and support of my supervisor, Prof. Ling, my collaborator, Dr. Ai, and my fellow lab mates. I am proud to share this honor with them. The official announcement can be found <a href='https://sist.ustc.edu.cn/2025/1010/c5142a703956/page.htm'>here</a>.
+- *2025.09*: &nbsp;🎉🎉 I am thrilled to announce that I have started an 8-month visiting position at the <a href='https://www.cstr.ed.ac.uk/'>Centre for Speech Technology Research (CSTR)</a> at the University of Edinburgh. I am hosted by Dr. <a href='https://homepages.inf.ed.ac.uk/korin/sitenew/index.html'>Korin Richmond</a> and funded by the <a href='https://nrc.canada.ca/en/research-development/research-collaboration/programs/speech-generation-indigenous-language-education'>Speech generation for Indigenous language education (SGILE)</a> project. I'm incredibly grateful to Korin for this wonderful opportunity and look forward to the exciting research ahead. 
 
 # 📖 Educations
 - *2021.09 - 2026.06 (Expected)*, **Ph.D. Candidate** in Information and Comunication Engineering, *University of Science and Technology of China*
@@ -42,14 +42,58 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
   - Minor in Business Administration.
 
 # 💼 Experiences
-<!-- - *2025.09 - 2026.04 (Expected)*, **Visiting Student** in Centre for Speech Technology Research (CSTR), *University of Edinburgh*
-  - Hosted by Prof. <a href='https://homepages.inf.ed.ac.uk/korin/sitenew/index.html'>Korin Richmond</a>. -->
-- *2025.03 - 2025.07 (Expected)*, **Research Intern**, <a href='https://tongyi.aliyun.com/welcome'>*Tongyi Speech Group, Alibaba Inc.*</a>  
+- *2025.09 - 2026.04 (Expected)*, **Visiting Student** in <a href='https://www.cstr.ed.ac.uk/'>Centre for Speech Technology Research (CSTR)</a>, *University of Edinburgh*
+  - Hosted by Dr. <a href='https://homepages.inf.ed.ac.uk/korin/sitenew/index.html'>Korin Richmond</a>. 
+  - Funded by the <a href='https://nrc.canada.ca/en/research-development/research-collaboration/programs/speech-generation-indigenous-language-education'>Speech generation for Indigenous language education (SGILE)</a> project.
+- *2025.03 - 2025.08*, **Research Intern**, <a href='https://tongyi.aliyun.com/welcome'>*Tongyi Speech Group, Alibaba Inc.*</a>  
   - Advised by Dr. <a href='https://scholar.google.com.tw/citations?user=8eosmSQAAAAJ&hl=zh-CN&oi=sra'>Qian Chen</a>, Mr. <a href='https://scholar.google.com.tw/citations?user=RnRnE3gAAAAJ&hl=zh-CN&oi=sra'>Chong Deng</a>, and Mr. Qinglin Zhang.
 
 
 
 # 📝 Publications 
+
+## 🎈 Speech Coding
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/varstok.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding](https://arxiv.org/abs/2509.04685)
+
+**Rui-Chen Zheng**, Wenrui Liu, Hui-Peng Du, Qinglin Zhang, Chong Deng, Qian Chen, Wen Wang, Yang Ai, Zhen-Hua Ling
+
+[**Demo Page**](https://zhengrachel.github.io/VARSTok/)
+- Existing speech tokenizers typically assign a fixed number of tokens per second, regardless of the varying information density or temporal fluctuations in the speech signal. This uniform token allocation mismatches the intrinsic structure of speech, where information is distributed unevenly over time. To address this, we propose VARSTok, a VAriable-frame-Rate Speech Tokenizer that adapts token allocation based on local feature similarity. VARSTok introduces two key innovations: (1) a temporal-aware density peak clustering algorithm that adaptively segments speech into variable-length units, and (2) a novel implicit duration coding scheme that embeds both content and temporal span into a single token index, eliminating the need for auxiliary duration predictors. Extensive experiments show that VARSTok significantly outperforms strong fixed-rate baselines. Notably, it achieves superior reconstruction naturalness while using up to 23% fewer tokens than a 40 Hz fixed-frame-rate baseline. VARSTok further yields lower word error rates and improved naturalness in zero-shot text-to-speech synthesis. To the best of our knowledge, this is the first work to demonstrate that a fully dynamic, variable-frame-rate acoustic speech tokenizer can be seamlessly integrated into downstream speech language models. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TASLP 2025</div><img src='images/ERVQ.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[ERVQ: Enhanced Residual Vector Quantization with Intra-and-Inter-Codebook Optimization for Neural Audio Codecs](https://ieeexplore.ieee.org/document/11031216)
+
+**Rui-Chen Zheng**, Hui-Peng Du, Xiao-Hang Jiang, Yang Ai, Zhen-Hua Ling
+
+[**Demo Page**](https://zhengrachel.github.io/ERVQ/)
+- Current neural audio codecs typically use residual vector quantization (RVQ) to discretize speech signals. However, they often experience codebook collapse, which reduces the effective codebook size and leads to suboptimal performance. To address this problem, we introduce ERVQ, Enhanced Residual Vector Quantization, a novel enhancement strategy for the RVQ framework in neural audio codecs. ERVQ mitigates codebook collapse and boosts codec performance through both intra- and inter-codebook optimization. Intra-codebook optimization incorporates an online clustering strategy and a code balancing loss to ensure balanced and efficient codebook utilization. Inter-codebook optimization improves the diversity of quantized features by minimizing the similarity between successive quantizations. Our experiments show that ERVQ significantly enhances audio codec performance across different models, sampling rates, and bitrates, achieving superior quality and generalization capabilities. Further experiments indicate that audio codecs improved by the ERVQ strategy can improve unified speech-and-text large language models (LLMs). 
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Under Review</span> [Enhancing Noise Robustness for Neural Speech Codecs through Resource-Efficient Progressive Quantization Perturbation Simulation](https://arxiv.org/abs/2509.19025), **Rui-Chen Zheng**, Yang Ai, Hui-Peng Du, Li-Rong Dai.
+
+<div class='paper-box-text' markdown="1">
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SPL 2025</span> [Is GAN Necessary for Mel-Spectrogram-based Neural Vocoder?](https://ieeexplore.ieee.org/abstract/document/11123758), Hui-Peng Du, Yang Ai, **Rui-Chen Zheng**, Ye-Xin Lu, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INTERSPEECH 2025</span> [Vision-Integrated High-Quality Neural Speech Coding](https://arxiv.org/abs/2505.23379), Yao Guo, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">IEEE Signal Processing Letters</span> [A Streamable Neural Audio Codec With Residual Scalar-Vector Quantization for Real-Time Communication](https://ieeexplore.ieee.org/abstract/document/10962534), Xiao-Hang Jiang, Yang Ai, **Rui-Chen Zheng**, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">ISCSLP 2024</span> [APCodec+: A Spectrum-Coding-Based High-Fidelity and High-Compression-Rate Neural Audio Codec with Staged Training Paradigm](https://ieeexplore.ieee.org/abstract/document/10800013), Hui-Peng Du, Yang Ai, **Rui-Chen Zheng**, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://ieeexplore.ieee.org/abstract/document/10832214), Xiao-Hang Jiang, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Zhen-Hua Ling.
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://ieeexplore.ieee.org/abstract/document/10832188), Fei Liu, Yang Ai, Hui-Peng Du, Ye-Xin Lu, **Rui-Chen Zheng**, Zhen-Hua Ling
+
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INTERSPEECH 2024</span> [A Low-Bitrate Neural Audio Codec Framework with Bandwidth Reduction and Recovery for High-Sampling-Rate Waveforms](https://www.isca-archive.org/interspeech_2024/ai24b_interspeech.pdf), Yang Ai, Ye-Xin Lu, Xiao-Hang Jiang, Zheng-Yan Sheng, **Rui-Chen Zheng**, Zhen-Hua Ling.
+
 
 ## 🎈 Articulation-Acoustic Relationship
 
@@ -107,32 +151,10 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 </div>
 </div>
 
-
-## 🎈 Speech Coding
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted by IEEE/ACM TASLP 2025</div><img src='images/ERVQ.png' alt="sym" width="100%"></div></div>
+## 💬 End-to-end Spoken Dialogue System
 <div class='paper-box-text' markdown="1">
-[ERVQ: Enhanced Residual Vector Quantization with Intra-and-Inter-Codebook Optimization for Neural Audio Codecs](https://arxiv.org/abs/2410.12359)
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Under Review</span> [Understanding Textual Capability Degradation in Speech LLMs via Parameter Importance Analysis](https://arxiv.org/abs/2509.23755), Chao Wang\*, **Rui-Chen Zheng\***(\*Equal Contribution), Yang Ai, Zhen-Hua Ling.
 
-**Rui-Chen Zheng**, Hui-Peng Du, Xiao-Hang Jiang, Yang Ai, Zhen-Hua Ling
-
-[**Demo Page**](https://zhengrachel.github.io/ERVQ/)
-- Current neural audio codecs typically use residual vector quantization (RVQ) to discretize speech signals. However, they often experience codebook collapse, which reduces the effective codebook size and leads to suboptimal performance. To address this problem, we introduce ERVQ, Enhanced Residual Vector Quantization, a novel enhancement strategy for the RVQ framework in neural audio codecs. ERVQ mitigates codebook collapse and boosts codec performance through both intra- and inter-codebook optimization. Intra-codebook optimization incorporates an online clustering strategy and a code balancing loss to ensure balanced and efficient codebook utilization. Inter-codebook optimization improves the diversity of quantized features by minimizing the similarity between successive quantizations. Our experiments show that ERVQ significantly enhances audio codec performance across different models, sampling rates, and bitrates, achieving superior quality and generalization capabilities. Further experiments indicate that audio codecs improved by the ERVQ strategy can improve unified speech-and-text large language models (LLMs). 
-</div>
-</div>
-
-<div class='paper-box-text' markdown="1">
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by INTERSPEECH 2025</span> [Vision-Integrated High-Quality Neural Speech Coding](https://arxiv.org/abs/2505.23379), Yao Guo, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling.
-
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">IEEE Signal Processing Letters</span> [A Streamable Neural Audio Codec With Residual Scalar-Vector Quantization for Real-Time Communication](https://ieeexplore.ieee.org/abstract/document/10962534), Xiao-Hang Jiang, Yang Ai, **Rui-Chen Zheng**, Zhen-Hua Ling.
-
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">ISCSLP 2024</span> [APCodec+: A Spectrum-Coding-Based High-Fidelity and High-Compression-Rate Neural Audio Codec with Staged Training Paradigm](https://ieeexplore.ieee.org/abstract/document/10800013), Hui-Peng Du, Yang Ai, **Rui-Chen Zheng**, Zhen-Hua Ling.
-
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios](https://ieeexplore.ieee.org/abstract/document/10832214), Xiao-Hang Jiang, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Zhen-Hua Ling.
-
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SLT 2024</span> [Stage-Wise and Prior-Aware Neural Speech Phase Prediction](https://ieeexplore.ieee.org/abstract/document/10832188), Fei Liu, Yang Ai, Hui-Peng Du, Ye-Xin Lu, **Rui-Chen Zheng**, Zhen-Hua Ling
-
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INTERSPEECH 2024</span> [A Low-Bitrate Neural Audio Codec Framework with Bandwidth Reduction and Recovery for High-Sampling-Rate Waveforms](https://www.isca-archive.org/interspeech_2024/ai24b_interspeech.pdf), Yang Ai, Ye-Xin Lu, Xiao-Hang Jiang, Zheng-Yan Sheng, **Rui-Chen Zheng**, Zhen-Hua Ling.
 
 </div>
 
@@ -141,6 +163,7 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 
 
 # 🎖 Honors and Awards
+- *2025.10* National Graduate Scholarship.
 - *2024.12* JAC-NIO Scholarship.
 - *2021.06* Honor Rank for Top 5% Graduates of USTC. 
 - *2020.12* Huawei Scholarship. 
