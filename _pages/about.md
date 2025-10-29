@@ -80,7 +80,7 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Under Review</span> [Enhancing Noise Robustness for Neural Speech Codecs through Resource-Efficient Progressive Quantization Perturbation Simulation](https://arxiv.org/abs/2509.19025), **Rui-Chen Zheng**, Yang Ai, Hui-Peng Du, Li-Rong Dai.
 
 <div class='paper-box-text' markdown="1">
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">SPL 2025</span> [Is GAN Necessary for Mel-Spectrogram-based Neural Vocoder?](https://ieeexplore.ieee.org/abstract/document/11123758), Hui-Peng Du, Yang Ai, **Rui-Chen Zheng**, Ye-Xin Lu, Zhen-Hua Ling.
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">IEEE Signal Processing Letters</span> [Is GAN Necessary for Mel-Spectrogram-based Neural Vocoder?](https://ieeexplore.ieee.org/abstract/document/11123758), Hui-Peng Du, Yang Ai, **Rui-Chen Zheng**, Ye-Xin Lu, Zhen-Hua Ling.
 
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">INTERSPEECH 2025</span> [Vision-Integrated High-Quality Neural Speech Coding](https://arxiv.org/abs/2505.23379), Yao Guo, Yang Ai, **Rui-Chen Zheng**, Hui-Peng Du, Xiao-Hang Jiang, Zhen-Hua Ling.
 
