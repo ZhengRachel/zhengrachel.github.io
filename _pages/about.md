@@ -29,6 +29,7 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 My first-authored paper, "<a href='https://arxiv.org/abs/2509.04685'>Say More with Less: Variable‑Frame‑Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding</a>", has been accepted as an **oral** presentation at **AAAI 2026**! We have open-sourced the <a href='https://github.com/FunAudioLLM/FunResearch/tree/main/VARSTok'>code</a> and <a href='https://huggingface.co/ZhengRachel/VARSTok/tree/main'>model weights</a>.
 - *2025.10*: &nbsp;🎉🎉 I am thrilled to announce that I have received the 2025 National Graduate Scholarship! This achievement would not have been possible without the guidance and support of my supervisor, Prof. Ling, my collaborator, Dr. Ai, and my fellow lab mates. I am proud to share this honor with them. The official announcement can be found <a href='https://sist.ustc.edu.cn/2025/1010/c5142a703956/page.htm'>here</a>.
 - *2025.09*: &nbsp;🎉🎉 I am thrilled to announce that I have started an 8-month visiting position at the <a href='https://www.cstr.ed.ac.uk/'>Centre for Speech Technology Research (CSTR)</a> at the University of Edinburgh. I am hosted by Dr. <a href='https://homepages.inf.ed.ac.uk/korin/sitenew/index.html'>Korin Richmond</a> and funded by the <a href='https://nrc.canada.ca/en/research-development/research-collaboration/programs/speech-generation-indigenous-language-education'>Speech generation for Indigenous language education (SGILE)</a> project. I'm incredibly grateful to Korin for this wonderful opportunity and look forward to the exciting research ahead. 
 
@@ -54,13 +55,23 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 
 ## 🎈 Speech Coding
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/varstok.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/varstok.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Say More with Less: Variable-Frame-Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding](https://arxiv.org/abs/2509.04685)
 
 **Rui-Chen Zheng**, Wenrui Liu, Hui-Peng Du, Qinglin Zhang, Chong Deng, Qian Chen, Wen Wang, Yang Ai, Zhen-Hua Ling
 
-[**Demo Page**](https://zhengrachel.github.io/VARSTok/)
+<div class="paper-links">
+  <a href="https://zhengrachel.github.io/VARSTok/" class="paper-link-button" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-desktop"></i> Demo
+  </a>
+  <a href="https://github.com/FunAudioLLM/FunResearch/tree/main/VARSTok" class="paper-link-button" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i> Code
+  </a>
+  <a href="https://huggingface.co/ZhengRachel/VARSTok/tree/main" class="paper-link-button" target="_blank" rel="noopener noreferrer">
+    <i class="fas fa-download"></i> Model
+  </a>
+</div>
 - Existing speech tokenizers typically assign a fixed number of tokens per second, regardless of the varying information density or temporal fluctuations in the speech signal. This uniform token allocation mismatches the intrinsic structure of speech, where information is distributed unevenly over time. To address this, we propose VARSTok, a VAriable-frame-Rate Speech Tokenizer that adapts token allocation based on local feature similarity. VARSTok introduces two key innovations: (1) a temporal-aware density peak clustering algorithm that adaptively segments speech into variable-length units, and (2) a novel implicit duration coding scheme that embeds both content and temporal span into a single token index, eliminating the need for auxiliary duration predictors. Extensive experiments show that VARSTok significantly outperforms strong fixed-rate baselines. Notably, it achieves superior reconstruction naturalness while using up to 23% fewer tokens than a 40 Hz fixed-frame-rate baseline. VARSTok further yields lower word error rates and improved naturalness in zero-shot text-to-speech synthesis. To the best of our knowledge, this is the first work to demonstrate that a fully dynamic, variable-frame-rate acoustic speech tokenizer can be seamlessly integrated into downstream speech language models. 
 </div>
 </div>
