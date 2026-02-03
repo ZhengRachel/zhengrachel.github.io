@@ -29,6 +29,7 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 
 
 # 🔥 News
+- *2026.1*: &nbsp;🎉🎉 I am thrilled to announce that **three** papers have been accepted to ICASSP 2026! These include [one first-author paper](https://arxiv.org/abs/2509.19025), [one co-first-author paper](https://arxiv.org/abs/2509.23755), and [one co-authored work](https://arxiv.org/abs/2601.12757). Heartfelt thanks to all my incredible co-authors for their collaboration and support!
 - *2025.11*: &nbsp;🎉🎉 My first-authored paper, "<a href='https://arxiv.org/abs/2509.04685'>Say More with Less: Variable‑Frame‑Rate Speech Tokenization via Adaptive Clustering and Implicit Duration Coding</a>", has been accepted as an **oral** presentation at **AAAI 2026**! We have open-sourced the <a href='https://github.com/FunAudioLLM/FunResearch/tree/main/VARSTok'>code</a> and <a href='https://huggingface.co/ZhengRachel/VARSTok/tree/main'>model weights</a>.
 - *2025.10*: &nbsp;🎉🎉 I am thrilled to announce that I have received the 2025 National Graduate Scholarship! This achievement would not have been possible without the guidance and support of my supervisor, Prof. Ling, my collaborator, Dr. Ai, and my fellow lab mates. I am proud to share this honor with them. The official announcement can be found <a href='https://sist.ustc.edu.cn/2025/1010/c5142a703956/page.htm'>here</a>.
 - *2025.09*: &nbsp;🎉🎉 I am thrilled to announce that I have started an 8-month visiting position at the <a href='https://www.cstr.ed.ac.uk/'>Centre for Speech Technology Research (CSTR)</a> at the University of Edinburgh. I am hosted by Dr. <a href='https://homepages.inf.ed.ac.uk/korin/sitenew/index.html'>Korin Richmond</a> and funded by the <a href='https://nrc.canada.ca/en/research-development/research-collaboration/programs/speech-generation-indigenous-language-education'>Speech generation for Indigenous language education (SGILE)</a> project. I'm incredibly grateful to Korin for this wonderful opportunity and look forward to the exciting research ahead. 
@@ -88,7 +89,10 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 </div>
 
 <div class='paper-box-text' markdown="1">
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Under Review</span> [Enhancing Noise Robustness for Neural Speech Codecs through Resource-Efficient Progressive Quantization Perturbation Simulation](https://arxiv.org/abs/2509.19025), **Rui-Chen Zheng**, Yang Ai, Hui-Peng Du, Li-Rong Dai.
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by ICASSP 2026</span> [Enhancing Noise Robustness for Neural Speech Codecs through Resource-Efficient Progressive Quantization Perturbation Simulation](https://arxiv.org/abs/2509.19025), **Rui-Chen Zheng**, Yang Ai, Hui-Peng Du, Li-Rong Dai.
+
+<div class='paper-box-text' markdown="1">
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by ICASSP 2026</span> [CodeSep: Low-Bitrate Codec-Driven Speech Separation with Base-Token Disentanglement and Auxiliary-Token Serial Prediction](https://arxiv.org/abs/2601.12757), Hui-Peng Du, Yang Ai, Xiao-Hang Jiang, **Rui-Chen Zheng**, Zhen-Hua Ling.
 
 <div class='paper-box-text' markdown="1">
 - <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">IEEE Signal Processing Letters</span> [Is GAN Necessary for Mel-Spectrogram-based Neural Vocoder?](https://ieeexplore.ieee.org/abstract/document/11123758), Hui-Peng Du, Yang Ai, **Rui-Chen Zheng**, Ye-Xin Lu, Zhen-Hua Ling.
@@ -164,7 +168,7 @@ My **CV** can be downloaded <a href="assets/RuichenZheng-CV-2025-06.pdf">here</a
 
 ## 💬 End-to-end Spoken Dialogue System
 <div class='paper-box-text' markdown="1">
-- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Under Review</span> [Understanding Textual Capability Degradation in Speech LLMs via Parameter Importance Analysis](https://arxiv.org/abs/2509.23755), Chao Wang\*, **Rui-Chen Zheng\***(\*Equal Contribution), Yang Ai, Zhen-Hua Ling.
+- <span style="background-color: #00369f; color: white; padding: 1px 4px; border-radius: 2px;">Accepted by ICASSP 2026</span> [Understanding Textual Capability Degradation in Speech LLMs via Parameter Importance Analysis](https://arxiv.org/abs/2509.23755), Chao Wang\*, **Rui-Chen Zheng\***(\*Equal Contribution), Yang Ai, Zhen-Hua Ling.
 
 
 </div>
